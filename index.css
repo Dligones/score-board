@@ -77,6 +77,11 @@ h3 {
     font-family: 'Cursed Timer ULiL', sans-serif;
     font-size: 3vmin;
     padding: 1%;
+    transition: 500ms;
+}
+
+.points-btn:hover {
+    background-color: teal;
 }
 
 .new-game-btn {
@@ -90,6 +95,12 @@ h3 {
     border: 2px solid #9AABD8;
     border-radius: 10px;
     color: #9AABD8;
+    font-family: verdana;
+    transition: 500ms;
+}
+
+.new-game-btn:hover {
+    background-color: teal;
 }
 
 .winning {
