@@ -1,0 +1,36 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="lock-aspect-ratio">
+            <div class="container">
+                <div class="team-box">
+                    <h3>HOME</h3>
+                    <div class="score-box" id="home-score-box">
+                        <p id="home-score">0</p>
+                    </div>
+                    <div class="button-group">
+                        <button class="points-btn" onclick="add1Home()">+1</button>
+                        <button class="points-btn" onclick="add2Home()">+2</button>
+                        <button class="points-btn" onclick="add3Home()">+3</button>
+                    </div>
+                </div>
+                <div class="team-box">
+                    <h3>GUEST</h3>
+                    <div class="score-box" id="away-score-box">
+                        <p id="away-score">0</p>
+                    </div>
+                    <div class="button-group">
+                        <button class="points-btn" onclick="add1Away()">+1</button>
+                        <button class="points-btn" onclick="add2Away()">+2</button>
+                        <button class="points-btn" onclick="add3Away()">+3</button>
+                    </div>
+                </div>
+            </div>
+            <button class="new-game-btn" onclick="newGame()">New Game</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
